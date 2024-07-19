@@ -83,6 +83,9 @@ dependencies {
     kapt "androidx.lifecycle:lifecycle-compiler:$androidx_lifecycle_version"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation "androidx.core:core-ktx:1.13.1"
+
 }
 
 apply from: 'https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle'
